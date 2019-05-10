@@ -1,7 +1,8 @@
-package co.paulfran.paulfranco.countries
+package co.paulfran.paulfranco.countries.view
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import co.paulfran.paulfranco.countries.R
 
 class MainActivity : AppCompatActivity() {
 
