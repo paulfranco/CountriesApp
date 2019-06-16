@@ -8,6 +8,8 @@ import co.paulfran.paulfranco.countries.R
 import co.paulfran.paulfranco.countries.model.Country
 import kotlinx.android.synthetic.main.item_country.view.*
 
+
+
 class CountryListAdapter(var countries: ArrayList<Country>) : RecyclerView.Adapter<CountryListAdapter.CountryViewHolder>() {
 
     fun updateCountries(newCountries: List<Country>) {
