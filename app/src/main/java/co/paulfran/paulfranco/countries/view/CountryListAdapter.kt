@@ -10,6 +10,8 @@ import co.paulfran.paulfranco.countries.util.getProgressDrawable
 import co.paulfran.paulfranco.countries.util.loadImage
 import kotlinx.android.synthetic.main.item_country.view.*
 
+
+
 class CountryListAdapter(var countries: ArrayList<Country>) : RecyclerView.Adapter<CountryListAdapter.CountryViewHolder>() {
 
     fun updateCountries(newCountries: List<Country>) {
