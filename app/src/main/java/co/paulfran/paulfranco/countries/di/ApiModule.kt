@@ -1,6 +1,7 @@
 package co.paulfran.paulfranco.countries.di
 
 import co.paulfran.paulfranco.countries.model.CountriesApi
+import co.paulfran.paulfranco.countries.model.CountriesService
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit
@@ -22,5 +23,10 @@ class ApiModule {
                 .build()
                 .create(CountriesApi::class.java)
 
+    }
+
+    @Provides
+    fun provideCountriesService(): CountriesService {
+        return CountriesService()
     }
 }
