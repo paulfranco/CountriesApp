@@ -1,4 +1,4 @@
-package co
+package co.paulfran.paulfranco.countries
 
 import android.arch.core.executor.testing.InstantTaskExecutorRule
 import io.reactivex.Scheduler
